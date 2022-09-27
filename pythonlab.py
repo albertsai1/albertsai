@@ -315,6 +315,7 @@ print(py_solution().pow(3, 5))
 print(py_solution().pow(100, 0))
 
 
+
 #---------------EXPERIMENT 19
 #-----------------AIM:Write a Python class to reverse a string word by word.
 
@@ -326,9 +327,10 @@ def rev_sentence(sentence):
   reverse_sentence = ' '.join(reversed(words))
   # finally return the joined string
   return reverse_sentence
-if __name__ == " __main__ ":
-  input = 'araknasidua'
-  print rev_sentence(input)
+
+if __name__ == '__main__':
+    input = 'technology of institute audisankara '
+    print(rev_sentence(input))
 
 
 #-----------------EXPERIMENT 20
